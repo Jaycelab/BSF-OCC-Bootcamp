@@ -1,0 +1,8 @@
+Branches
+Master Branch:
+Starting branch, stable version of your code, branch that is published
+
+Additional BranchesCopy state of ocde in master branch into a new branchIsolated enviroment where we can try out features and changes
+If deleted or modified, these will not affect the master branch.
+
+Similar to a tree. The branches do not affect the actual tree
