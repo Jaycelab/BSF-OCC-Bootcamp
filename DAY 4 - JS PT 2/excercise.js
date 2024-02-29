@@ -1,13 +1,10 @@
-let num1 = 3;
-let num2 =10;
+let num1 = 13;
+let num2 = 20;
 
 checkEvenOrOdd = (num) => {
-	if (num % 2 ===0 ) {
-		console.log(`The number ${num} is even`)
-	}
-	else {
-		console.log(`The number ${num} is odd`)
-	}
+	num % 2 === 0 ? 
+	console.log(`The number ${num} is even`) : 
+	console.log(`The number ${num} is odd`);
 }
 
 checkEvenOrOdd(num1)
