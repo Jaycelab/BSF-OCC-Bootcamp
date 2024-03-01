@@ -1,20 +1,21 @@
 //Variables
 // var variable - global-scoped variable
 if (true) {
-  var MyName = "Regel";
-  MyName = "Ms. Regel";
+    var MyName = "Regel";
+    MyName = "Ms. Regel"
 }
 
 console.log(MyName);
 
+
 //let variable - block-scoped variable
 let age = 18;
-console.log(age);
+console.log(age)
 
 if (true) {
-  let animal = "Cat";
-  animal = "Elephant";
-  console.log(animal);
+    let animal = "Cat";
+    animal = "Elephant"
+    console.log(animal);
 }
 //console.log(animal); - this will not work outside the scope where it was declared
 

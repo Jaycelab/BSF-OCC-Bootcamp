@@ -1,3 +1,5 @@
+//Objects
+
 const person = {
     firstName: 'Jane',
     lastName: 'Doe',
@@ -9,19 +11,21 @@ const person = {
     }
 }
 
-console.log(person.firstName); 
-console.log(person.age)
+console.log(person.firstName);
+console.log(person.age);
+person.greet();
 
-person.lastName = 'Smith'
-console.log(person.lastName)
+person.lastName = 'Smith';
+console.log(person.lastName);
 
-person.nationality = 'American'
-console.log(person.nationality)
+person.nationality = 'American';
+console.log(person.nationality);
 
-//Introducing new method
+
+
 person.introduce = function () {
     console.log(`I am ${this.firstName} ${this.lastName}. I am ${this.age} years old.`)
-    }
+}
 person.introduce();
 
 const address = {
@@ -31,8 +35,11 @@ const address = {
 }
 
 person.homeAddress = address;
-console.log(person.homeAddress.street)
+console.log(person.homeAddress.street);
 
-//Object Destructuring
-const {firstName, lastName, age} = person;
+
+// Object Destructuring
+const { firstName, lastName, age } = person;
 console.log(firstName);
+
+

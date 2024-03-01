@@ -23,5 +23,5 @@ let remainder = x % y;
 console.log(remainder);
 
 //answer = 10 + 2 * 23 / 2
-let answer = 10 + (2 * 23) / 2;
+let answer = 10 + 2 * 23 / 2
 console.log(answer);

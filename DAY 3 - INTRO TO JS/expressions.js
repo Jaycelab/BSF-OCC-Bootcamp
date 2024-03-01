@@ -7,9 +7,10 @@ console.log("Hello" + " " + "World!");
 let sunny = false;
 let warm = false;
 
-console.log("Is it sunny AND warm?", sunny && warm);
-console.log("Is it sunny OR warm?", sunny || warm);
+console.log("Is it sunny AND warm?" , sunny && warm);
+console.log("Is it sunny OR warm?", sunny ||  warm);
 console.log("NOT sunny?", !sunny);
+
 
 //assignment expression
 let a = 20;

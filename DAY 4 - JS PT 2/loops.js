@@ -1,25 +1,24 @@
-//Loops are used to repeatedly execute a block of code until a specific ocndition is met
+//Loops - Loops are used to repeatedly execute a block of code until a specific condition is met
+//They provide a way to automat code
 
-//They provide a way to automate code
-
-for (let i = 1; i <= 5; i++) {
-  console.log(i);
+//For loop
+for (let i = 3; i <= 5; i++ ) {
+    console.log('For loop:', i)
 }
+
 
 //While loop
 let count = 1;
 while (count <= 3) {
-  console.log("Hello world!", count);
-  count++;
-  console.log("Hello world!", count);
+    console.log('While loop:', count);
+    count++;
+    console.log('While loop:', count);
 }
+
 
 //do-while loop
 let counter = 10;
 do {
-  console.log("Do while count:", counter);
-  counter++;
-} while (counter <= 5);
-
-
-//Objects
+    console.log('Do while count:', counter);
+    counter++;
+}while (counter <= 5);
